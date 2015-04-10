@@ -8,13 +8,13 @@ LINK: http://www.oeis.org
 This program allows the user to select up to three integer sequences from the OEIS, and an output tempo, 
 and output MIDI to the local IAC Bus. localhost's IAC bus must be set up to work properly. 
 
-Example Syntax:
-  $ python3 oeis-search.py A000010 A000056 A000100 120.0
+    Example Syntax:
+    $ python3 oeis-search.py A000010 A000056 A000100 120.0
   
-    ONE SEQUENCE: MIDI Values
-    TWO SEQUENCE: MIDI Velocity
-    THREE SEQUENCE: MIDI Note length
-    FOURTH VALUE: Tempo (Example 120.0)
+  ONE SEQUENCE: MIDI Values
+  TWO SEQUENCE: MIDI Velocity
+  THREE SEQUENCE: MIDI Note length
+  FOURTH VALUE: Tempo (Example 120.0)
     
 -- Design Overview
 OEIS-to-MIDI is a command-line application built to extract integer sequences from the OEIS database, 
