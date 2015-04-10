@@ -13,7 +13,7 @@ Example Syntax:
   
     ONE SEQUENCE: MIDI Values
     TWO SEQUENCE: MIDI Velocity
-  THREE SEQUENCE: MIDI Note length
+    THREE SEQUENCE: MIDI Note length
     FOURTH VALUE: Tempo (Example 120.0)
     
 -- Design Overview
